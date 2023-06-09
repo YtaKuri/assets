@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support For Engineer</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/gotham-ssm" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <h1 class="logo"><a href="#"><i class="fa fa-plane" aria-hidden="true"></i></a></h1>
+            <nav id="navi">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index.html#">Top</a></li>
+                    <li><a href="http://127.0.0.1:5500/Australlia.html">Australlia</a></li>
+                    <li><a href="http://127.0.0.1:5500/Canada.html">Canada</a></li>
+                    <li><a href="http://127.0.0.1:5500/Holland.html">Holland</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+    </header>
+
+    <main>
+        <div class="support-container">
+            <img class="support-phpto" src="https://images.unsplash.com/photo-1480504612934-8170966f69e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3wxNzI3ODQ5fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+            <h1 class="support-title">サポート</h1>
+            <h1 class="support-subTitle">お問い合わせ情報入力</h1>
+            <form class="support-form" method="POST" action="http://localhost/sodatech/phpkiso/check.php">
+                <div class="support-content">
+                    ニックネーム<br>
+                    <input class="nickname" type="text" name="nickname" value="">
+                </div>
+                <div class="support-content">
+                    メールアドレス<br>
+                    <input class="mail" type="email" name="email" value="">
+                </div>
+                <div class="support-content">
+                    お問い合わせ内容<br>
+                    <textarea name="content"  cols="61" rows="10"></textarea>
+                </div>
+                <div class="support-btn">
+                    <input class="support-btn" type="submit" "value"=送信>
+                </div>
+            </form>
+            <!-- <h2>管理者メニュー</h2>
+            <ul>
+                <li><a href="./view.php">お問い合わせ内容一覧</a></li>
+            </ul> -->
+        </div>
+    </main>
+
+    <div class="support-parent-hr">
+        <hr class="support-hr">
+    </div>
+
+    <footer class="support-foot">
+        <small>Copyright &copy; 2023 Kuri</small>
+        <h1 class="footer-logo"><a href="https://twitter.com/home"><i class="fa fa-twitter" aria-hidden="true"></i></a></h1>
+        <h1 class="footer-logo"><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></h1>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
